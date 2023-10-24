@@ -1,4 +1,5 @@
 import './App.css';
+import Say from './Say1024';
 // import WelcomeProp from "./WelcomePromps";
 // import Section from "./Section1024"
 import MyComponent from './myComponent1024';
@@ -15,7 +16,6 @@ import MyComponent from './myComponent1024';
 //   return (user) ? (<h1>환영합니다. {member.name}님.</h1>) : (<h1>환영합니다. 방문자님.</h1>);
 // }
 
-
 function App() {
   // const element = <WelcomeProp name = "곰돌이"/>
   //스타일 이름은 전부 카멜 표기법으로 변경 됨
@@ -28,7 +28,7 @@ function App() {
   return (
     // 하나의 컨퍼런트는 하나의 태그로 묶여져야함/(감싸주는 태그 있어야함). 마지막에 묶어주어야 한다. |빈 태그<></>| or |플래그먼트 태그 ex/) <div></div>|
     // <>
-  
+
     // <h1 style=/{{color: "red"}}> 안녕하세요. 저는 {member.name} 입니다. 나이는 {member.age}이며, 주소는 {member.addr}입니다.</h1>
     // {/* 조건부 렌더링 : 3항 연산자 사용하는 방법 */}
     // {member.name === "리액트" ? <h1>리엑트이면 h1태그</h1> : <h2>아니면 h2태그</h2>}
@@ -44,17 +44,21 @@ function App() {
     // </div>
     // <div>{getGeeting(true)}</div>
     // </>
-    
-    // <> 
+
+    // <>
     //  <WelcomeProp name="곰돌이" addr="경기도" age = {22}/>
     //  <WelcomeProp name="이영지" addr="서울시" age = {23}/>
     // </>
+
     <>
-    {/* <Section title="스포츠" content="This is the content for section1."/>
+      {/* <Section title="스포츠" content="This is the content for section1."/>
     <Section title="정치" content="This is the concent for section2."/> */}
-    <MyComponent name="곰돌이 사육사" age={30}/>
+      {/* <MyComponent name="곰돌이 사육사" age={30}>
+        태그와 태그 사이 들어가는 프롭스 내용을 보여주는 props.children
+      </MyComponent> */}
+      <Say />
     </>
-    );
+  );
 }
 
 export default App;
