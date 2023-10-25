@@ -1,8 +1,15 @@
 import './App.css';
-import Say from './Say1024';
+// import EventHandler from './EventHandler1025';
+// import RadioButton from './RadioButton1025';
+// import Table from './Table1025';
+// import TableMap from './Tablemap1025';
+import CreateRef from './UseRef1025';
+// import Clock from './Clock1025';
+// import Say from './Say1024';
 // import WelcomeProp from "./WelcomePromps";
 // import Section from "./Section1024"
-import MyComponent from './myComponent1024';
+// import MyComponent from './myComponent1024';
+// import EventPractice from './onChange1025';
 
 // const member =/{
 //   name : "곰돌이",
@@ -56,9 +63,17 @@ function App() {
       {/* <MyComponent name="곰돌이 사육사" age={30}>
         태그와 태그 사이 들어가는 프롭스 내용을 보여주는 props.children
       </MyComponent> */}
-      <Say />
+      {/* <Say /> */}
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      {/* <TableMap /> */}
+      <CreateRef />
     </>
   );
 }
 
-export default App;
+export default CreateRef;

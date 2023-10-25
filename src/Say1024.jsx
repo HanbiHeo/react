@@ -9,6 +9,7 @@ const Say = () => {
 
   return (
     <>
+      {/* onClick={onClickEnter}->함수를 참조한 참조변수. */}
       <button onClick={onClickEnter}>입장</button>
       <button onClick={onClickLeave}>퇴장</button>
       <h1 style={{ color: val }}>{message}</h1>
