@@ -32,7 +32,7 @@ const EventHandler = () => {
         placeholder="매일두유"
         value={message}
         onChange={onChangeMessage}
-        //첫번째 입력창에서는 에터를 눌렀을때 alert창으로 바로넘어가면 안되고, 두번째 입력창까지 채운 후에만 onKeyDown 효과를 주어서 넘어갈 수 있게 해야한다.
+        //첫번째 입력창에서는 엔터를 눌렀을때 alert창으로 바로넘어가면 안되고, 두번째 입력창까지 채운 후에만 onKeyDown 효과를 주어서 넘어갈 수 있게 해야한다.
         onKeyDown={onKeyPress}
       />
       <button onClick={onClick}>확인</button>

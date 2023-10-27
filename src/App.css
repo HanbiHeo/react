@@ -3,3 +3,21 @@
   color: darkgreen;
   font-weight: bold;
 }
+h2 {
+  color: royalblue;
+}
+.season {
+  margin: 10px;
+}
+.title-name {
+  color: aqua;
+  font-size: 2em;
+  background-color: black;
+}
+.del-guide {
+  color: rgb(0, 143, 96);
+  font-style: italic;
+}
+li {
+  list-style: lower-roman;
+}
