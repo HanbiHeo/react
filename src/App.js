@@ -1,5 +1,6 @@
 import './App.css';
-import Counter2 from './Hooks4-1026';
+// import Counter2 from './Hooks4-1026';
+import Average from './Hooks5-1027';
 // import Info from './Hooks2-1026';
 // import MemberInfo from './Hooks3-1026';
 // import Counter from './Hooks1-1026';
@@ -83,9 +84,10 @@ function App() {
       {/* <Counter /> */}
       {/* <Info/> */}
       {/* <MemberInfo /> */}
-      <Counter2 />
+      {/* <Counter2 /> */}
+      <Average />
     </>
   );
 }
 
-export default Counter2;
+export default Average;
